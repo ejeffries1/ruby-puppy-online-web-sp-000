@@ -21,11 +21,5 @@ class Dog
     @@all.clear
   end
   
-  private
-  def save
-    @@all << self
-    @@all.collect do |i|
-      i == self.name
-    end
-  end
+  
 end
